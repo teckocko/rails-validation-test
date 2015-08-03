@@ -1,0 +1,8 @@
+<% if @invitation.errors.any? %>
+
+    <ul>
+      <% @invitation.errors.full_messages.each do |msg| %>
+          <li style="color:red;"><%= msg %></li>
+      <% end %>
+    </ul>
+<% end %>

@@ -1,0 +1,18 @@
+<%= form_for(@invitation, remote: true, html: {class: :invitation_form}) do |f| %>
+
+
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_area :email %>
+  </div>
+  <div id="errorlist">
+
+  </div>
+  <div class="field">
+    <%= f.label :message %><br>
+    <%= f.text_area :message %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
