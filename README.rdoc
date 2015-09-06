@@ -1,28 +1,9 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the task i got from a senior rails programmer, to see how i would solve it.
 
-Things you may want to cover:
+Task:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Create a form that contains two fieds, email and text. Email field can accept multiple emails, separated by comma or space and needs to be validated without refreshing the page, and error messages should be displayed for every invalid email (eg. "this email is invalid", "that email is invalid", ...). On successful submition redirect to index.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
